@@ -1,0 +1,46 @@
+/* Basic styles for the form */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #747272;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.btn {
+  background-color: #4caf50;
+}
+.container {
+  max-width: 100%; /* Use max-width to constrain width */
+  margin: 0 auto;
+  padding: 20px;
+}
