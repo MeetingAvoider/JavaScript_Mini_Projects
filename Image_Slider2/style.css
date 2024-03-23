@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+.slide img {
+  width: 100%;
+}
+.arrow {
+  cursor: pointer;
+}
