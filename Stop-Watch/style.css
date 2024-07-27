@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #001a4d;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width:40%;
+    background: rgb(26, 26, 25);
+    color: white;
+    height: 40vh;
+    border-radius: 30px;
+}

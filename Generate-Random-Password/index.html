@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Generate-Random-Password</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Genrate A</h1>
+      <h1>Random Password</h1>
+      <hr />
+      <input type="text" name="randomPass" id="randomPass" />
+      <button id="btn">Generate Password</button>
+    </div>
+    <button onclick="share()">copy</button>
+  </body>
+  <script>
+    function share() {
+      password.select();
+      document.execCommand("copy");
+    }
+  </script>
+</html>

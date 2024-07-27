@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon-Quiz-Game</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./favicon.png" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h4 id="result" class="header">who's that pokemon?</h4>
+      <img
+        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png"
+        id="imageId"
+        alt="pokemon image"
+      />
+    </div>
+    <div class="options" id="options-container">
+      <button id="option1">options1</button
+      ><button id="option2">options2</button
+      ><button id="option3">options3</button
+      ><button id="option4">options4</button>
+    </div>
+    <h4 id="h4">
+      points: <span id="pointsValue">0</span> <span>/</span
+      ><span id="totalCount">0</span>
+    </h4>
+    <div id="loadingContainer" class="loading-container">
+      <img src="./loading_icon.gif" alt="loading..." id="loadingImg" />
+    </div>
+  </body>
+</html>

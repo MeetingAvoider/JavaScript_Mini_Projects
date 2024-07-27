@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap");
+:root {
+  --white-color: #fff;
+  --button-correct: #5aae76;
+  --button-wrong: #e13e3e;
+  --button-hover: #aaa;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Rammetto One", sans-serif;
+  font-weight: 400;
+  display: flex;
+  min-height: 100vh;
+  text-align: center;
+  justify-content: center;
+  margin: 0px;
+  background: linear-gradient(135deg, #3b4cca 0%, #ff3535 100%);
+  color: var(--white-color);
+}
+.header{
+  
+}
