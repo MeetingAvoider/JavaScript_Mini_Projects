@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+:root,
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100%;
+  font-size: 62.5%;
+  background-color: brown;
+}
+header {
+  background-color: rgb(213, 210, 210);
+  color: black;
+  display: flex;
+  justify-content: space-evenly;
+  height: 4rem;
+  font-size: 2rem;
+  align-items: center;
+}
+button {
+  border: none;
+  padding: 1.2rem 3rem;
+  outline: none;
+  background-color: rgb(136, 130, 130);
+  border-radius: 0.7rem;
+}
+.container {
+  position: relative;
+  transform: translate(-50%, -50%);
+  
+}

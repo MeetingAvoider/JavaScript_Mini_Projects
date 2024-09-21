@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./style.css" />
     <script src="./script.js" defer></script>
     <title>Notes App</title>
-    <script src="./script.js" defer></script>
+    <script src="./script.js" type="module"></script>
   </head>
   <body>
     <div class="notes" id="app">
@@ -28,7 +28,7 @@
           class="notes__title"
           placeholder="Enter a title"
         />
-        <textarea name="note_body" id="note_body" class="notes__body">
+        <textarea name="note_body" id="note_body" class="notes__body" title="Note Body" placeholder="Enter your note here"></textarea>
 I am the notes body....</textarea
         >
       </div>

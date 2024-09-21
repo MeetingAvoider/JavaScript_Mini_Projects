@@ -11,7 +11,7 @@ body {
   background-color: rgb(107, 107, 221);
 }
 .container {
-  height: 100vh;
+  min-height: 100vh;
   min-width: 25vw;
   display: flex;
   flex-direction: column;
@@ -60,7 +60,10 @@ input[type="text"] {
   font-weight: bold;
 }
 .tasks {
-  width: 90%;
+  min-width: 90%;
+}
+.tasks li {
+  list-style: none;
 }
 .task {
   display: flex;
