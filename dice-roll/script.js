@@ -1,10 +1,18 @@
 const btnEl = document.getElementById("btn");
 const diceEl = document.getElementById("dice");
 const rollHistoryEl = document.getElementById("rollHistory"); // Corrected line
+let rolled = [];
 function rollDice() {
   const rollResult = Math.floor(Math.random() * 6) + 1;
   const setDice = unicode(rollResult);
   diceEl.innerHTML = setDice;
+  rolled.push(setDice);
+  const result = rolled.map((value, index) => {
+    return ` <li>
+        Roll: ${index + 1} <span>${value}</span>
+      </li>`;
+  });
+  rollHistoryEl.innerHTML = result;
 }
 function unicode(rollResult) {
   switch (rollResult) {
