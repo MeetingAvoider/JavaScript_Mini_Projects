@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="script.js" defer></script>
+    <title>Weather-App</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Weather App</h1>
+      <form>
+        <input type="text" id="search" placeholder="Enter city name" />
+        <button type="submit" id="search-btn">Get Weather</button>
+      </form>
+      <div class="information">
+        <img
+          src="https://images.unsplash.com/photo-1705077689363-76d4424a13c7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2VhdGhlciUyMGljb258ZW58MHx8MHx8fDA%3D"
+          alt="pic1"
+        />
+        <div class="temperature"><span id="value">4</span><sup>&deg</sup>C</div>
+        <p id="condition">Overcase Cloud</p>
+        <div class="weather-information">
+          <div class="info">
+            <p>Wind</p>
+            <p id="wind">5km/h</p>
+          </div>
+          <div class="info">
+            <p>Humidity</p>
+            <p id="humidity">5%</p>
+          </div>
+          <div class="info">
+            <p>Pressure</p>
+            <p id="pressure">5mb</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

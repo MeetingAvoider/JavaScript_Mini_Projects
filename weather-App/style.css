@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;800;900&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  background-color: #f7f7f7;
+  /* text-align: center; */
+}
+.container {
+  background-color: white;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+form input[type="text"] {
+  width: 60%;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  outline: none;
+  margin: 10px;
+}
+form button[type="submit"] {
+  padding: 10px;
+  border: none;
+  background-color: #3a1cd0;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  transition: all 0.5s ease;
+}
+form button[type="submit"]:hover {
+  background-color: #160b4d;
+}
+
+.information {
+  margin-top: 20px;
+  text-align: center;
+}
+.information img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-size: contain;
+  margin: 0 auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.temperature {
+  font-size: 50px;
+  font-weight: 800;
+  margin: 20px 0;
+}
+#condition {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 10px 0;
+  margin-bottom: 20px;
+}
+.weather-information {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.weather-information > div {
+  width: 50%;
+  text-align: center;
+  padding: 20px;
+  background: #f1f1f1;
+  margin: 10px;
+  flex: 1;
+  border-radius: 10px;
+  min-height: 45px;
+}
+
+@media (max-width: 768px) {
+  form {
+    flex-direction: column;
+  }
+  form input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
